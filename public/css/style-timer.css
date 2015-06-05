@@ -1,0 +1,241 @@
+/*Hsoft timer 1 start*/
+
+#hs_timer1 .im_timer_wrapper{
+	min-height:410px;
+	background-color:#00bcd4;	
+	text-align:center;
+	color:#fff;
+	padding:100px 0;
+	}
+
+#hs_timer1 .im_timer_wrapper h3{
+	font-size:28px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	margin-top:0;
+	text-transform:uppercase;
+	margin-bottom: 50px;
+	}	
+
+#hs_timer1 .im_timer_wrapper .im_timer{
+	border:1px solid rgba(255,255,255,0.5);
+	width: 100%;
+	float: left;
+	}
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span{
+	padding: 25px 0;
+	float: left;
+	width: 20%;
+	border-right: 1px solid rgba(255,255,255,0.5);
+	}
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span:last-child{
+	border-right:none;
+	}
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span p{
+	line-height: 65px;
+	font-size:65px;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+	}		
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span p.txt{
+	font-size:12px;
+	line-height:0px;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	}	
+	
+/*Hsoft timer 1 end*/
+
+/*Hsoft timer 2 start*/
+
+#hs_timer2 .im_timer_wrapper{
+	min-height:383px;
+	background-color:#00bcd4;	
+	text-align:center;
+	color:#fff;
+	padding:80px 0 20px;
+	}
+
+#hs_timer2 .im_timer_wrapper h3{
+    font-size: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-transform: capitalize;
+	}	
+
+#hs_timer2 .im_timer_wrapper .im_timer{
+	width: 100%;
+	float: left;
+	}
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span{
+	padding: 50px 0 50;
+	float: left;
+	width: 20%;
+	position:relative;
+	}
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span:before {
+	content:":";
+	right: 0px;
+	top: 50%;
+	font-size:30px;
+	line-height:10px;
+	position:absolute;
+	}
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span:last-child:before {
+	display:none;
+	}
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span p{
+	line-height: 65px;
+	font-size:65px;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+	}		
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span p.txt{
+	font-size:12px;
+	line-height:0px;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	}	
+#hs_timer2 .im_timer_wrapper p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	}
+#hs_timer2 .im_timer_wrapper h5 {
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+	}
+
+/*Hsoft timer 2 end*/
+
+
+
+/*Hsoft timer 3 start*/
+#hs_timer3 .banner_bg {
+    background-color: rgba(16, 12, 13, 0.88);        
+	color: #fff;
+	min-height: 463px;
+	padding:78px 0 85px 0;
+}
+#hs_timer3 .im_timer_wrapper{
+	min-height:463px;
+	/*background-color:#00bcd4;	*/
+	text-align:center;
+	color:#fff;
+	}
+#hs_timer3 .im_timer_wrapper h3{
+    font-size: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-transform: capitalize;
+	}	
+#hs_timer3 .im_timer_wrapper .im_timer{
+	width: 100%;
+	float: left;
+	}
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span{
+	float: left;
+	width: 20%;
+	position:relative;
+	}
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span> p{
+	width: 150px;
+	height: 150px;
+	display:inline-block;
+	text-align:center;
+	border-radius: 100%;
+	border:6px solid #444444;
+	line-height: 150px;
+	font-size:65px;
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color:#00bcd4;
+	}		
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span p.txt{
+	width:100%;
+	height:auto;
+	border:0px;
+	border-radius:0px;
+	font-size:12px;
+	line-height:0px;
+	margin:27px 0 0;
+	font-weight: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	background-color:transparent;
+	}	
+#hs_timer3 .im_timer_wrapper p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	}
+#hs_timer3 .im_timer_wrapper h5 {
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+	margin: 23px 0 35px;
+    font-family: 'Raleway', sans-serif;
+	}
+/*Hsoft timer 3 end*/
+
+
+	
+	
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span{
+	float: left;
+	width: 30%;
+	text-align:center;
+	padding-bottom:30px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span{
+	float: left;
+	width: 50%;
+	text-align:center;
+	padding-bottom:30px;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span{
+	padding: 25px 0;
+	float: left;
+	width: 50%;
+	border-right: 1px solid rgba(255,255,255,0.5);
+	border-bottom:1px solid rgba(255,255,255,0.5);
+	}
+#hs_timer1 .im_timer_wrapper .im_timer .im_counter span:last-child{
+	width: 100%;
+	}
+
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span{
+	padding: 50px 0 50;
+	float: left;
+	width: 50%;
+	position:relative;
+	}
+#hs_timer2 .im_timer_wrapper .im_timer .im_counter span:before{
+	display:none;
+	}
+#hs_timer3 .im_timer_wrapper .im_timer .im_counter span{
+	float: left;
+	width: 100%;
+	text-align:center;
+	padding-bottom:30px;
+	}
+}		

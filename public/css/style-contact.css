@@ -1,0 +1,205 @@
+b.chead {
+	color: #8C9899;
+}
+
+b.chead span {
+	color: #34495E;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+p.text-light {
+	color: #7F8C8D;
+}
+
+.wrapper.grey{
+	background: #ECF0F1;
+	border-top: 1px solid #d3d9dd;
+	border-bottom: 1px solid #d3d9dd;
+	padding: 80px 0px;
+}
+
+/* hsoft contact1 start */
+#contact3{
+	padding-top:40px;
+	padding-bottom:0px;
+	}
+#contact3 .contact_vanue{
+	text-align:center;
+	background-color:#1c1c1c;
+	color:#999999;
+	padding:80px 0;
+	}
+#contact3 .contact_vanue h4{
+	color:#fff;
+	font-size:22px;
+	text-transform:uppercase;
+	}	
+#contact3 .contact_vanue .number{
+	color:#00bcd4;
+	font-size:30px;
+	}
+#contact3 .contact_vanue .number span{
+	margin:0 15px;
+	}	
+#contact3 .contact_vanue .number span i{
+	margin-right:10px;
+	}	
+	
+/* hsoft contact1 end */
+/* hsoft contact1 end */
+#contact2 .contact_map {
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
+}
+#contact2 .contact_detail_wrapper h3 {
+  margin: 25px 0;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #1e1e1e;
+  }
+#contact2 .contact_detail_wrapper p {
+     color: #888888;
+     margin-bottom: 35px;
+	 line-height: 24px;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+#contact2 .contact_map {
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
+}
+
+#contact2 .contact_detail_wrapper h3 {}
+
+#contact2 .contact_detail_wrapper ul {
+    padding: 0;
+    list-style: none;
+}
+
+#contact2 .contact_detail_wrapper ul li span {
+    width: 45px;
+    display: inline-block;
+    font-size: 30px;
+    float: left;
+    margin-top: 5px;
+    color: #00bcd4;
+    min-height: 40px;
+}
+#contact2 .contact_detail_wrapper ul li:nth-child(2) span {
+    font-size: 22px;
+}
+
+#contact2 .contact_detail_wrapper ul li:last-child span {
+    font-size: 28px;
+}
+#contact2 {
+    padding: 70px 0 0;
+}
+#contact2 .contact_detail_wrapper .contact_content {
+	margin-left: 20px;
+}
+#contact2 .contact_detail_wrapper .contact_content p a {
+  margin: 0px;
+}
+#contact2 .contact_detail_wrapper .contact_content p, #contact2 .contact_detail_wrapper .contact_content p a {
+   margin-bottom: 10px;
+   font-size: 22px;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-transform: capitalize;
+   color: #1e1e1e;
+   font-weight: normal;
+   line-height: 24px;
+}
+#contact2 .contact_detail_wrapper ul li:last-child {
+  margin: 0px;
+}
+#contact2 .contact_detail_wrapper ul li {
+    margin-bottom: 35px;
+}
+#contact2 .number {
+  color: #00bcd4 !important;
+}
+
+/* hsoft contact1 end */
+
+/* hsoft contact1 end */
+#contact3 {
+    overflow: hidden;
+    padding: 0px;
+    background-color: #00bcd4;
+}
+#contact3 .contact_detail_wrapper h3 {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 96px 0 30px;
+}
+#contact3 .contact_detail_wrapper p {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 33px;
+}
+#contact3 input.form-control {
+    border-radius: 0px;
+    border: 1px solid #80deea;
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 16px;
+    height: 45px;
+}
+#contact3 .form-group {
+    margin-bottom: 30px;
+}
+#contact3 .form-group .btn_submit {
+	  padding: 11px 50px 12px;
+	  background-color: #fff;
+	  border-radius: 0px;
+	  color: #1e1e1e;
+	  font-size: 16px;
+	  text-transform: capitalize;
+	  margin: 0px;
+	  box-shadow: none;
+	  font-family: 'Source Sans Pro', sans-serif;
+}
+#contact3 .form-control:-moz-placeholder {
+  color: #fff;
+	}
+#contact3 .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+#contact3 .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* hsoft contact1 end */
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+.contact_detail_wrapper {
+  padding: 0 20px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+.contact_detail_wrapper {
+  padding: 0 20px;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.contact_detail_wrapper {
+  padding: 0 20px;
+	}
+#contact3 .contact_vanue .number span {
+  display: block;
+	}	
+}	
