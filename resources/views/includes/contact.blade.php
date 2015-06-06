@@ -30,7 +30,7 @@
 	<div class="contact_detail_wrapper">
 		<h3 class="editContent">get in touch</h3>
 
-		{!! Form::open(['route' => ['store', 'slug' => $program->slug]]) !!}
+		{!! Form::open(['route' => ['mail.inquire', 'slug' => $program->slug]]) !!}
 
 		<div class="form-group">
 			{!! Form::text('name', null, ['id' => 'name', 'class' => 'form-control hs_border', 'placeholder' => 'name']) !!}
