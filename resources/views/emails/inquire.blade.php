@@ -1,5 +1,7 @@
-{{ $title }} Inquire
+New Inquire for the {{ $title }}
 
-{{ $name }}
-{{ $email }}
-{{ $phone }}
+<hr>
+<br>
+<strong>Name:</strong> {{ $name }}
+<strong>Email:</strong> {{ $email }}
+<strong>Phone:</strong> {{ $phone }}
