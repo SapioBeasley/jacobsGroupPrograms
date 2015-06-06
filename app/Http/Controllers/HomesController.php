@@ -62,7 +62,7 @@ class HomesController extends Controller {
 		Mail::send('emails.inquire', $data, function($message) use ($data, $program)
 		{
 			$message->from($data['email'], $data['name']);
-			$message->to('andreas@sapioweb.com')->subject('[Inquire] ' . $program->title);
+			$message->to('jonathan@jacobsgroupvegas.com')->subject('[Inquire] ' . $program->title);
 		});
 
 		return Redirect::route('program.show', [$program->slug])->with('success_message', 'Your message has been successfully sent');
