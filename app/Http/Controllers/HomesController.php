@@ -60,8 +60,6 @@ class HomesController extends Controller {
 			$message->to('andreas@sapioweb.com')->subject($program->title);
 		});
 
-		->route('profile', ['user' =>
-
 		return Redirect::route('program.show', ['slug' => $program->slug)->with('success_message', 'Your message has been successfully sent');
 	}
 
