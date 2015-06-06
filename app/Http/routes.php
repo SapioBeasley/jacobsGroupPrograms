@@ -11,4 +11,9 @@
 |
 */
 
+Route::get('/{slug}', [
+	'as' => 'program.show',
+	'uses' => 'HomesController@show',
+]);
 Route::resource('/', 'HomesController');
+Route::resource('vegas', 'ProgramsController');

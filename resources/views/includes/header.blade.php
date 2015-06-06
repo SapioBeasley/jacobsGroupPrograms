@@ -14,7 +14,7 @@
           <div class="col-md-8 col-md-offset-2 text-center">
 
             <!-- <img src="images/icons/jacobsgroup-logo.png" alt="header logo"> -->
-            <p class="editContent">Military Home Assistance Program</p>
+            <p class="editContent">{{ $program->title }} <br><small>{{ $program->presentedBy }}</small></p>
             <h3 class="editContent">Up to 100% off closing costs<br> (avg. $5,075+) when purchasing a home</h3>
             <a href="#get-started" class="btn btn-info btn-embossed btn-wide btn_white"> Get Started</a>
 

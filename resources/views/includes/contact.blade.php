@@ -1,27 +1,27 @@
 <div class="col-md-6" style="background-color:#ffffff;" id="get-started">
 	<div class="col-md-10 col-md-offset-1">
 	<div class="contact_detail_wrapper">
-		<h3 class="editContent" style="color:#212121 !important"><strong>For Military members, Veterans, and their families</strong></h3>
+		<h3 class="editContent" style="color:#212121 !important"><strong>{{ $program->for }}</strong></h3>
 		<p class="editContent" style="color:#212121 !important;line-height:40px;">
-	  	<i class="fa fa-check"></i> Up to 100% off closing costs (avg. $5,075+) when purchasing a home
+	  	<i class="fa fa-check"></i> {{ $program->detail1 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Never pay back any assistance funds received
+	  	<i class="fa fa-check"></i> {{ $program->detail2 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Lowest down payment guarantee
+	  	<i class="fa fa-check"></i> {{ $program->detail3 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Low interest market rate guarantee
+	  	<i class="fa fa-check"></i> {{ $program->detail4 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Easy loan pre-qualification and approval
+	  	<i class="fa fa-check"></i> {{ $program->detail5 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Buy or sell in all of Nevada, with no area restrictions
+	  	<i class="fa fa-check"></i> {{ $program->detail6 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> VIP customer service
+	  	<i class="fa fa-check"></i> {{ $program->detail7 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> No storage fees, negotiation fees, or any other hidden fees
+	  	<i class="fa fa-check"></i> {{ $program->detail8 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> Discounts offered for Military selling their homes too!
+	  	<i class="fa fa-check"></i> {{ $program->detail9 }}
 	 		<br>
-	  	<i class="fa fa-check"></i> No income limit
+	  	<i class="fa fa-check"></i> {{ $program->detail10 }}
 	  </p>
   </div><!-- /.editContent -->
   </div>

@@ -44,9 +44,12 @@
   <body>
 
     <div id="page" class="page">
-      @foreach ($programs as $program)
-        <a href="{{ route('show', $program['slug']) }}">{{ $program['title'] }}</a><br>
-      @endforeach
+      @include('includes.header')
+      <div class="item contact bg bg1" id="contact3">
+        <div class="row">
+          @include('includes.contact')
+        </div>
+      </div>
       <div class="item timer" id="hs_timer3">
     		@include('includes.simply')
     	</div>
@@ -93,3 +96,4 @@
 
   </body>
 </html>
+

@@ -8,11 +8,8 @@ use Request;
 use Redirect;
 use View;
 use Mail;
-use \DB;
 
-use App\Program;
-
-class HomesController extends Controller {
+class ProgramsController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -21,12 +18,7 @@ class HomesController extends Controller {
 	 */
 	public function index()
 	{
-		$programs = [];
-
-		$programs = Program::all();
-		// $programs = json_encode($programs);
-
-		return View::make('homes.index')->with('programs', $programs);
+		return View::make('homes.index');
 	}
 
 	/**
@@ -63,12 +55,9 @@ class HomesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($slug)
+	public function show($id)
 	{
-		$program = DB::table('programs')->where('slug', $slug)->first();
-		// dd($program->id);
-
-		return View::make('homes.show')->with('program', $program);
+		//
 	}
 
 	/**
