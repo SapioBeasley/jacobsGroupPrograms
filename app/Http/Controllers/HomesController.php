@@ -46,21 +46,7 @@ class HomesController extends Controller {
 	 */
 	public function store()
 	{
-		$data = Request::all();
 
-		$program = DB::table('programs')->where('slug', $data['slug'])->first();
-
-		$data['title'] = ['title' => $program->title];
-		$data = array_merge($data, $data['title']);
-		// dd($data);
-
-		Mail::send('emails.inquire', $data, function($message) use ($data, $program)
-		{
-			$message->from($data['email'], $data['name']);
-			$message->to('andreas@sapioweb.com')->subject($program->title);
-		});
-
-		return Redirect::route('program.show', [$program->slug])->with('success_message', 'Your message has been successfully sent');
 	}
 
 	public function mail($slug)
@@ -76,7 +62,7 @@ class HomesController extends Controller {
 		Mail::send('emails.inquire', $data, function($message) use ($data, $program)
 		{
 			$message->from($data['email'], $data['name']);
-			$message->to('andreas@sapioweb.com')->subject($program->title);
+			$message->to('andreas@sapioweb.com')->subject('[Inquire] ' . $program->title);
 		});
 
 		return Redirect::route('program.show', [$program->slug])->with('success_message', 'Your message has been successfully sent');
