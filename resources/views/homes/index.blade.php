@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-	  <title>Meet Up Landing Page With Builder Access</title>
+	  <title>Landing Page List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--pageMeta-->
