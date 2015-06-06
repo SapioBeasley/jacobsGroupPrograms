@@ -48,13 +48,19 @@ class HomesController extends Controller {
 	{
 		$data = Request::all();
 
-		Mail::send('emails.inquire', $data, function($message) use ($data)
+		$program = DB::table('programs')->where('slug', $data['slug'])->first();
+
+		$data['title'] = ['title' => $program->title];
+		$data = array_merge($data, $data['title']);
+		// dd($data);
+
+		Mail::send('emails.inquire', $data, function($message) use ($data, $program)
 		{
 			$message->from($data['email'], $data['name']);
-			$message->to('andreas@sapioweb.com')->subject('Military Program Inquire');
+			$message->to('andreas@sapioweb.com')->subject($program->title);
 		});
 
-		return Redirect::back()->with('success_message', 'Your message has been successfully sent');
+		return Redirect::route('program.show', $program->slug)->with('success_message', 'Your message has been successfully sent');
 	}
 
 	/**
