@@ -44,9 +44,44 @@
   <body>
 
     <div id="page" class="page">
-      @foreach ($programs as $program)
-        <a href="{{ route('show', $program['slug']) }}">{{ $program['title'] }}</a><br>
-      @endforeach
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <span class="glyphicon glyphicon-list"></span>Programs
+              </div>
+              <div class="panel-body">
+                  <ul class="list-group">
+                    @foreach ($programs as $program)
+                      <li class="list-group-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox">
+                            <a href="{{ route('show', $program['slug']) }}">{{ $program['title'] }}</a><br>
+                          </label>
+                        </div>
+                        <div class="pull-right action-buttons">
+                            <a href=""><span class="glyphicon glyphicon-pencil"></span></a>
+                            <a href="" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+                        </div>
+                      </li>
+                    @endforeach
+                  </ul>
+              </div>
+              <div class="panel-footer">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <h6>
+                              Total Count <span class="label label-info">{{ count($programs) }}</span></h6>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="item timer" id="hs_timer3">
     		@include('includes.simply')
     	</div>

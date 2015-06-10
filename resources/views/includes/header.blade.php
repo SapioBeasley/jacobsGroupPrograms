@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <div class="banner bg bg2" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0" style="background-image:url(images/background/hs_header3_bg.jpg);">
+    <div class="banner bg bg2" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0" style="background-image:url(images/background/{{ $program->slug }}.jpg);">
 
       <div class="banner_bg">
 
