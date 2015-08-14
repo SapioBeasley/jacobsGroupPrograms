@@ -43,7 +43,7 @@ class ProgramsController extends Controller {
 		Mail::send('emails.inquire', $data, function($message) use ($data)
 		{
 			$message->from($data['email'], $data['name']);
-			$message->to('andreas@sapioweb.com')->subject('Military Program Inquire');
+			$message->to('jonathan@jacobsgroupvegas.com')->subject($data['program']);
 		});
 
 		return Redirect::back()->with('success_message', 'Your message has been successfully sent');

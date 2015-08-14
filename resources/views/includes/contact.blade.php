@@ -42,6 +42,8 @@
 			{!! Form::text('phone', null, ['id' => 'phone', 'class' => 'form-control hs_border', 'placeholder' => 'phone']) !!}
 		</div>
 
+		{!! Form::hidden('program', $program->title) !!}
+
 		<p class="editContent">GIVE US A CALL (702)442-0055 </p>
 
 		<div class="form-group">
