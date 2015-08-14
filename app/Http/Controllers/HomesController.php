@@ -77,7 +77,10 @@ class HomesController extends Controller {
 	public function show($slug)
 	{
 		$program = DB::table('programs')->where('slug', $slug)->first();
-		// dd($program->id);
+
+		if ($program == null) {
+			abort(404);
+		}
 
 		return View::make('homes.show')->with('program', $program);
 	}
