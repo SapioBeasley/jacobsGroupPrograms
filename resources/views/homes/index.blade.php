@@ -62,7 +62,7 @@
                       <p>http://jacobsgroupvegas.com/programs/newlywed-program</p>
                       <p>http://jacobsgroupvegas.com/programs/nurses-program</p>
                       <p>http://jacobsgroupvegas.com/programs/southwest-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/teacher-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/teachers-program</p>
                     </li>
                     @foreach ($programs as $program)
                       <li class="list-group-item">
