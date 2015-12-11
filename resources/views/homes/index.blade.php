@@ -53,6 +53,17 @@
               </div>
               <div class="panel-body">
                   <ul class="list-group">
+                    <li class="list-group-item">
+                      <h3>Original Landing Pages</h3>
+                      <p>http://jacobsgroupvegas.com/programs/cosmopolitan-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/doctors-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/hotel-casino-employee-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/las-vegas-incentive-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/newlywed-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/nurses-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/southwest-program</p>
+                      <p>http://jacobsgroupvegas.com/programs/teacher-program</p>
+                    </li>
                     @foreach ($programs as $program)
                       <li class="list-group-item">
                         <div class="checkbox">
