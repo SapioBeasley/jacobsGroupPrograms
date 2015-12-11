@@ -55,14 +55,14 @@
                   <ul class="list-group">
                     <li class="list-group-item">
                       <h3>Original Landing Pages</h3>
-                      <p>http://jacobsgroupvegas.com/programs/cosmopolitan-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/doctors-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/hotel-casino-employee-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/las-vegas-incentive-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/newlywed-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/nurses-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/southwest-program</p>
-                      <p>http://jacobsgroupvegas.com/programs/teachers-program</p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/cosmopolitan-program">Cosmopolitan Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/doctors-program">Doctors Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/hotel-casino-employee-program">Hotel Casino Employee Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/las-vegas-incentive-program">Las Vegas Incentive Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/newlywed-program">Newlywed Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/nurses-program">Nurses Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/southwest-program">Southwest Program</a></p>
+                      <p><a href="http://jacobsgroupvegas.com/programs/teachers-program">Teachers Program</a></p>
                     </li>
                     @foreach ($programs as $program)
                       <li class="list-group-item">
